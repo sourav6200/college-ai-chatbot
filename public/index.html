@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College AI Chatbot - Gemini Powered</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 College AI Assistant</h1>
+            <p class="subtitle">Powered by Google Gemini API</p>
+        </div>
+        
+        <div id="chatBox" class="chat-box">
+            <div class="welcome-message">
+                <h2>👋 Welcome!</h2>
+                <p>I'm your AI assistant. Ask me anything about your studies, projects, or general questions!</p>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Type your message here..." 
+                onkeypress="handleKeyPress(event)"
+                autocomplete="off"
+            >
+            <button onclick="sendMessage()" id="sendBtn">
+                <span>Send</span>
+            </button>
+            <button onclick="clearChat()" class="clear-btn">
+                <span>Clear</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
