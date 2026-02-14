@@ -147,7 +147,8 @@ This project is open source and available for educational purposes.
 
 ## 👨‍💻 Author
 
-Your Name - College Project 2024
+Your Name - Sourav
+
 
 ## 🙏 Acknowledgments
 
